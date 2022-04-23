@@ -1,4 +1,4 @@
-let myMap = L.map("mapid").setView([40.7, -94.5], 4);
+let myMap = L.map("mapid").setView([37.5, -122.5], 10);
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -11,10 +11,13 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
 });
 streets.addTo(myMap);
 
-let line = [
-    [33.9416, -118.4085],
-    [37.6213, -122.3790]
-  ];
-L.polyline(line, {
-    color: "red"
-}).addTo(myMap)
+let airportData = 
+
+
+L.geoJSON(sanFranAirport, {
+    onEachFeature: function(feature, layer){
+        console.log(layer);
+        layer.bindPopup();
+        
+    }
+}).addTo(myMap);
