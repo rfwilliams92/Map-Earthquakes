@@ -14,4 +14,4 @@ There are 3 mapbox base layers:
 - Satellite (mapbox/satellite-v9)
 - Light Grey (mapbox/light-v10) shown below
 
-![This is an Image](Screen Shot 2022-04-24 at 12.03.37 PM.png)
+![This is an Image](https://github.com/rfwilliams92/Map-Earthquakes/blob/d2482b03bcca7305fc73e167da509c8c89a4d90c/Screen%20Shot%202022-04-24%20at%2012.03.37%20PM.png)
