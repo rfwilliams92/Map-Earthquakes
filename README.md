@@ -14,4 +14,4 @@ There are 3 mapbox base layers:
 - Satellite (mapbox/satellite-v9)
 - Light Grey (mapbox/light-v10) shown below
 
-![This is an Image]()
+![This is an Image](Screen Shot 2022-04-24 at 12.03.37 PM.png)
